@@ -96,7 +96,7 @@
         }
     };
 
-    // 图标定义
+    // 图标定义，图标这里放一份
     const NONLINEAR_MOTION_ICON = "";
 
     const ICONS = {
