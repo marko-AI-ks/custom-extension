@@ -97,7 +97,8 @@
     };
 
     // 图标定义，图标这里放一份
-    const NONLINEAR_MOTION_ICON = "";
+    const NONLINEAR_MOTION_ICON = "";  // 扩展图标URL这里
+    const NONLINEAR_MOTION_picturs = ""; // 背景URL这里
 
     const ICONS = {
         extension: NONLINEAR_MOTION_ICON,
@@ -1404,6 +1405,8 @@
             extensionId: 'nonlinearMotion',
             featured: true,
             disabled: false,
+            iconURL: NONLINEAR_MOTION_picturs,
+            insetIconURL: NONLINEAR_MOTION_ICON,
             collaborator: 'Marko_AI@CCW',
             collaboratorURL: 'https://www.ccw.site/student/60bed1fb053f0666d7e373ff'
         },
